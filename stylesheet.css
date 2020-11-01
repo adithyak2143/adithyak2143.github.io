@@ -6,7 +6,7 @@ h6 {
 }
 h1 {
     font-size: 140px;
-    font-family: harrington,monotype corsiva, admiration pains;
+    font-family: Edwardian Script ITC, algerian;
     display: block;
     padding: 5px;
     text-align: center;
@@ -14,8 +14,8 @@ h1 {
     border-width: 0px;  /*no border for saarang*/
     border-style: double;
     margin: 0px;
-    margin-right: 500px;
-    margin-left: 500px;
+    margin-right: auto;
+    margin-left: auto;
     text-decoration: none;
     text-shadow: 5px 5px 5px red,
                  10px 10px 10px blue;
