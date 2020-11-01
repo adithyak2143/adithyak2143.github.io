@@ -1,0 +1,147 @@
+* { margin: 0; padding: 0;}
+h6 {
+    visibility: hidden;
+    font-size: 0px;
+    color:grey;
+}
+h1 {
+    font-size: 95px;
+    font-family: admiration pains;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    border-color: green;
+    border-width: 0px;  /*no border for saarang*/
+    border-style: double;
+    margin: 0px;
+    margin-right: 500px;
+    margin-left: 500px;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px red,
+                 10px 10px 10px blue;
+}
+h1 a{
+    color: gold;
+    text-decoration: none;
+
+}
+h1 a:hover{
+    color: rgb(17,238,216);;
+    font-size:100px;
+}
+    
+div.event {
+    height: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: tahoma;
+}
+div.event ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+div.event ul li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 180px;
+    margin: 50px 100px 0px 100px;
+    border: 0px blue solid;
+    height: 325px;
+    /*background-color: red;*/
+}
+div.event ul li a {
+    background-color: chocolate;
+    text-decoration:none;
+    color: white;
+    display: flex;
+    width: 208px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border: 1px green solid;
+    border-radius:100px;
+}
+div.event ul li a:hover {
+    color: black;
+    background-color:grey;
+    font-size: 30px;
+}
+div.event ul li img {
+    padding: 8px 8px 8px 8px;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.about {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    height: 30px;
+    margin-right: 10px;
+
+    
+}
+.about a {
+    
+    text-decoration: none;
+    color:white;
+    font-size: 27px;
+    margin-right:5px;
+    margin-left:5px;
+    background-color: blueviolet;
+    border-radius: 1px;
+}
+ 
+.about a:hover {
+    background-color: green;
+    color: blue;
+
+
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 31px 1px rgba(175, 8, 8, 0.75);
+    display: flex;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 150%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background: white;
+    border-radius: 10px;
+    /*background: linear-gradient(green,red,orange);*/
+}
+.container:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+
+pre {
+    color: black; 
+    text-align: left;
+    margin-left: -80px;
+}
+
+pre p {
+    font-weight: bolder;
+}
