@@ -90,18 +90,16 @@ div.event ul li img {
     margin-bottom: 10px;
     border-radius: 50px;
 }
-
-.about {
+.header {
     display: block;
     position: fixed;
-    top: 10px;
-    right: 0px;
+    top: 0%;
+    right: 0%;
     height: 30px;
-    margin-right: 10px;
 
-    
 }
-.about a {
+
+.header a {
     
     text-decoration: none;
     color:white;
@@ -112,8 +110,13 @@ div.event ul li img {
     background-color: blueviolet;
     border-radius: 10px;
 }
+
+li {
+    display: inline;
+}
+
  
-.about a:hover {
+.header a:hover {
     background-color: green;
     color: blue;
 
@@ -183,6 +186,7 @@ div.footer {
     bottom: 0px;
     right: 0px;
 
+
 }
 
 .footer a {
@@ -204,6 +208,7 @@ div.footer {
     text-decoration: none;
     text-align: center;
     margin-left: 45%;
+
     
 }
 .footer a:hover {
@@ -222,6 +227,10 @@ div.footer {
     list-style-type : none;
     float: right;
     text-align:right;
+    background-color: grey;
+    opacity: 0.6;
+    height: 70px;
+
     
 }
 

@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    vertical-align: auto;
+    background-image: url(bg7.jpg); 
+}
+h1 {
+    font-size: 100px;
+    display: inline;
+    position: fixed;
+    font-family: admiration pains;
+    border: 0px black solid;
+    padding: 0px;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+}
+
+.header {
+    display: block;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 30px;
+
+}
+
+.header a {
+    
+    text-decoration: none;
+    color:white;
+    width: 1.1em;
+    font-size: 27px;
+    margin-right:5px;
+    margin-left:5px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+li {
+    display: inline;
+}
