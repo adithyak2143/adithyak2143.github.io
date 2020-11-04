@@ -2,9 +2,10 @@ body {
     display: flex;
     justify-content: center;
     vertical-align: auto;
-    background-image: url(bg7.jpg); 
+    background-image: url(saarang_with_bg.PNG); 
 }
 h1 {
+    background-color: red;
     font-size: 100px;
     display: inline;
     position: fixed;
@@ -36,7 +37,33 @@ h1 {
     background-color: blueviolet;
     border-radius: 10px;
 }
+.header a:hover {
+    background-color: green;
+    color: blue;
+}
 
 li {
     display: inline;
+}
+pre {
+    display: block;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-top: 20%;
+}
+
+
+p.about {
+    display: inline-block;
+    background: linear-gradient(green,black,orange); 
+    color: black;
+    font-size: 20px;
+    padding: 0px 13px 0px 13px;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    color: red;
+    font-family: cursive;
+    border-radius: 40px;
+
 }
